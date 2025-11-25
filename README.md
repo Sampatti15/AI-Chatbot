@@ -17,7 +17,7 @@ The chatbot can answer questions, generate code, solve problems, and respond con
 
 ## Setup Instructions
 
-### **1️⃣ Clone the repository**
+1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Sampatti15/AI-Chatbot.git
 cd AI-Chatbot
@@ -35,7 +35,8 @@ python app.py
 Go to:
 http://127.0.0.1:5000
 
-<img width="1536" height="764" alt="screenshot" src="https://github.com/user-attachments/assets/5e37113b-1d1e-4a8d-b327-8771ed632925" />
+<img width="1536" height="764" alt="screenshot" src="https://github.com/user-attachments/assets/68e19c08-02fd-4930-af60-f43453067d5c" />
+
 
 
 
