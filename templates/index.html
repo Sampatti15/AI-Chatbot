@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <!--links-->
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div class="chatbot-container">
+        <!--chatbot header-->
+        <div class="chat-header">
+            <h3>AI Chatbot</h3>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <!-- Chat messages will be added here -->
+        </div>
+        <div class="chat-input-area">
+             <!-- Chatbot footer -->
+            <div class="input-controls">
+                <button id="emojiBtn" class="icon-btn"><i class="far fa-smile"></i></button>
+                <div id="emojiPicker" class="emoji-picker-popup"></div>
+                <button id="attachBtn" class="icon-btn"><i class="fas fa-paperclip"></i></button>
+                <input type="file" id="attachmentInput" style="display: none;">
+            </div>
+            <textarea id="messageInput" placeholder="Type your message..."></textarea>
+            <button id="sendBtn" class="icon-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+</body>
+</html>
